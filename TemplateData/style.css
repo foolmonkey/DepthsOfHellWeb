@@ -92,6 +92,33 @@ body {
   cursor: pointer;
 }
 
+.fullscreen:hover {
+  transform: scale(1.15);
+  transition: 0.1s ease;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.fa-github {
+  padding: 10px;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.795);
+}
+
+a {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+
+i:hover {
+  color: rgba(255, 255, 255, 0.623);
+}
+
 .footer {
   padding: 15px 10px;
   margin-top: 15px !important;
